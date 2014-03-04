@@ -9,11 +9,15 @@ $grid-padding: $gutter-width;
 //1em
 
 /* Responsive Columns */
-$first-break: $total-columns*1.5 30em;
+$first-break: 30em $total-columns*1.5;
 
-$second-break: $total-columns*2 40em;
+$second-break: 40em $total-columns*2;
 
 $third-break: 50em $total-columns*3;
+
+$fourth-break: 60em $total-columns*3;
+
+$fifth-break: 70em $total-columns*3;
 
 /* Base Variables */
 $base-font-size: 16px;
@@ -37,8 +41,8 @@ $gray_tertiary_hover: scale-lightness($gray_tertiary, -25%);
 $black: tint(#000000, 10%);
 
 /* Fonts */
-@import url('');
-$header-font: "Expletus Sans", Arial, sans-serif;
-$body-font: "Noto Sans", Arial, sans-serif;
+@import url();
+$header-font: Arial;
+$body-font: Arial, Helvetica, sans-serif;
 $mono-font: DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
 // $alt-font: serif
